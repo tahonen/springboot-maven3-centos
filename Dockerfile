@@ -3,7 +3,7 @@
 # This image provide a base for running Spring Boot based applications. It
 # provides a base Java 8 installation and Maven 3.
 
-FROM openshift/base-centos7
+FROM registry.access.redhat.com/rhel7.3
 
 EXPOSE 8080
 
